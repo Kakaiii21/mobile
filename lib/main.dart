@@ -1,7 +1,11 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:proj1/pages/authentication.dart';
 
+=======
+import 'package:proj1/pages/mainMenu.dart';
+>>>>>>> da5ef83838ccde2238633df1f3d92e69c4789c16
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +35,11 @@ class MyApp extends StatelessWidget {
           ),
         ),
         splashIconSize: double.infinity,
+<<<<<<< HEAD
         nextScreen: Authentication(),
+=======
+        nextScreen: MovieMenuPage(),
+>>>>>>> da5ef83838ccde2238633df1f3d92e69c4789c16
         duration: 3100,
         backgroundColor: Colors.transparent,
       ),
